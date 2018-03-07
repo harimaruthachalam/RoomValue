@@ -1,0 +1,5 @@
+C:\Users\448746\Documents\Visual Studio 2010\Projects\RoomValue\RoomValue\bin\RoomValue.dll
+C:\Users\448746\Documents\Visual Studio 2010\Projects\RoomValue\RoomValue\bin\RoomValue.pdb
+C:\Users\448746\Documents\Visual Studio 2010\Projects\RoomValue\RoomValue\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\448746\Documents\Visual Studio 2010\Projects\RoomValue\RoomValue\obj\Debug\RoomValue.dll
+C:\Users\448746\Documents\Visual Studio 2010\Projects\RoomValue\RoomValue\obj\Debug\RoomValue.pdb

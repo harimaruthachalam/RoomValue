@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DatabaseModelStoreContainer">
+    <EntitySet Name="Login" EntityType="DatabaseModel.Store.Login" store:Type="Tables" store:Schema="dbo" store:Name="Login">
+      <DefiningQuery>SELECT 
+      [Login].[ID] AS [ID], 
+      [Login].[Password] AS [Password]
+      FROM [dbo].[Login] AS [Login]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'C:\USERS\448746\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\ROOMVALUE\ROOMVALUE\APP_DATA\DATABASE.MDF.dbo.Login' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Password" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Password" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+</Schema>
